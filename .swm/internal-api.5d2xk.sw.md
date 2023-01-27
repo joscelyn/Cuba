@@ -22,7 +22,7 @@ We use this API when {{use cases}}.
 ### 📄 server/main.js
 ```javascript
 3      Meteor.startup(() => {
-4        // code to run on server at startup
+4        console.log("code changed")
 5      });
 6      
 ```
@@ -59,8 +59,6 @@ We use this API when {{use cases}}.
 When using this API, it is important to follow a few best practices and avoid some common mistakes.
 
 <br/>
-
-
 
 <br/>
 
